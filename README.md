@@ -1,20 +1,14 @@
 # VisionFlow
 VisionFlow is an innovative project aimed at learning a shared latent space between visual stimuli (images) and brain activity (fMRI responses). By leveraging Variational Autoencoders (VAEs) and Vision Transformers (ViT), VisionFlow enables image reconstruction from predicted fMRI signals.
 
----
-
 ## Objective
 
 - Learn a shared latent space between paired images and human brain fMRI responses.
 - Enable image reconstruction from predicted fMRI signals by aligning image-derived latent codes with fMRI-derived latent codes.
 
----
-
 ## Background
 
 Brain imaging using fMRI illustrates how the human brain encodes visual information. VisionFlow employs VAEs and pretrained ViT models to map image features to corresponding fMRI signal representations, creating a bidirectional framework for image and fMRI interaction.
-
----
 
 ## Methodology
 
@@ -50,14 +44,12 @@ Brain imaging using fMRI illustrates how the human brain encodes visual informat
    - Convert predicted fMRI to latent vector via `fmri_to_latent`.
    - Decode latent vector to reconstruct the image.
 
----
 
 ## Results
 
 - Trained for 5 epochs (can train longer for better results, however training is costly, and there are diminishing returns).
 - Evaluation focused on latent alignment and image reconstruction fidelity.
 
----
 
 ## Files and Structure
 
@@ -66,7 +58,7 @@ Brain imaging using fMRI illustrates how the human brain encodes visual informat
 - **Presentation**: `Mapping Visual Stimuli to Brain Activity via VAE and ViT.pptx`
   - Detailed methodology, results, and architecture visuals.
 
----
+
 
 ## Requirements
 
@@ -77,14 +69,12 @@ Brain imaging using fMRI illustrates how the human brain encodes visual informat
 - pandas
 - Matplotlib
 
----
 
 ## Running the Code
 
 1. Clone the repository.
 2. Open `VAE_Testing.ipynb` in Jupyter Notebook and follow the instructions for preprocessing, training, and evaluation.
 
----
 
 ## Future Work
 
@@ -92,7 +82,6 @@ Brain imaging using fMRI illustrates how the human brain encodes visual informat
 - Extend training to additional datasets for robustness.
 - Explore alternative architectures for better performance.
 
----
 
 ## Acknowledgments
 
